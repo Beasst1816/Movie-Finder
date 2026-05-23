@@ -43,3 +43,43 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# C++ and build files
+*.cpp
+*.cc
+*.cxx
+*.c++
+*.h
+*.hpp
+*.hh
+*.h++
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.exe
+*.so
+*.dylib
+
+# CMake build files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+build/
+dist/
+
+# Swift files
+*.swift
+
+# C files
+*.c
+
+# HTML files
+*.html
+
+# macOS
+*.xcodeproj
+*.xcworkspace
